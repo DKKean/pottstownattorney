@@ -84,6 +84,12 @@ No GitHub Actions needed for this project yet.
 
 ---
 
+## PRE-LAUNCH REFERENCE
+
+See `LAUNCH-CHECKLIST.md` in this repo for the full pre-launch verification checklist to be completed by Jenny/MFT before deploying to the live domain.
+
+---
+
 ## STANDING REQUIREMENT — ADA COMPLIANCE
 
 ADA/WCAG 2.1 AA compliance is mandatory on all MFT client sites. While fixing the above bugs, also verify:
