@@ -570,20 +570,6 @@ ul.content-list li {
   width: 100%;
   border-radius: inherit;
 }
-body.page-contact .form-env-note {
-  font-size: 0.88rem;
-  color: var(--color-muted);
-  margin: 0 0 0.65rem 0;
-  line-height: 1.45;
-  max-width: 40rem;
-}
-body.page-contact .form-env-note a {
-  color: var(--color-gold-dim);
-  font-weight: 600;
-}
-body.page-contact .form-env-note strong {
-  color: var(--color-text);
-}
 .credential-rail__k {
   display: block;
   font-size: 0.72rem;

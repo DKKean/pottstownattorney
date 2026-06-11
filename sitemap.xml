@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  STAGING / SANDBOX SITEMAP — INTENTIONAL EMPTY urlset
+  - robots.txt on the preview host is Disallow: / so this file is not an SEO tool here.
+  - It exists so automated checks see a 200 and valid XML, not a missing file.
+  - For production: replace this entire file with docs/sitemap.production.xml (www URLs only).
+  - Do not submit this staging URL in Google Search Console.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>

@@ -1,0 +1,4 @@
+# Use this file as robots.txt on public staging if the site must not be indexed.
+# Replace the production robots.txt on the staging host with this content (or deploy in CI).
+User-agent: *
+Disallow: /

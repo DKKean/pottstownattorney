@@ -1,0 +1,4 @@
+# Staging / sandbox host (e.g. pottstownattorney.fueledbymft.com) — do not index preview.
+# For production: replace with contents of docs/robots.production.txt
+User-agent: *
+Disallow: /
