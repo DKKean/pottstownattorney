@@ -81,3 +81,22 @@ just mark them clearly so we know what needs client input.
 Once fixes are committed to `main`, Jenny will deploy via FTP to:
 `pottstownattorney.fueledbymft.com` on the MFT Plesk server.
 No GitHub Actions needed for this project yet.
+
+---
+
+## STANDING REQUIREMENT — ADA COMPLIANCE
+
+ADA/WCAG 2.1 AA compliance is mandatory on all MFT client sites. While fixing the above bugs, also verify:
+
+- All images have meaningful `alt` text (not empty, not "image")
+- All interactive elements (buttons, links, nav toggle) have `aria-label` or visible text
+- Color contrast ratio meets 4.5:1 for normal text, 3:1 for large text
+- Focus states are visible on all interactive elements
+- Navigation is keyboard-accessible (Tab, Enter, Escape to close mobile menu)
+- `aria-expanded` on hamburger toggle is updated correctly on open/close (check main.js)
+- Form fields have associated `<label>` elements
+- Skip-to-content link is present and functional (it's in the CSS already — verify it's in the HTML)
+- Page `<html>` tag has `lang="en"`
+- Heading hierarchy is logical (one H1 per page, H2/H3 in order)
+
+Flag any violations found with a `<!-- ADA: ... -->` comment in the HTML or a note in the commit message.
